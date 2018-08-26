@@ -15,12 +15,12 @@ function getPalindromeIndex(str){
 	// tmp
     var tmp = '';
    
-	// we check palindrome straight away 
+	// is pal, do nothing 
     if(isPalindrome(str)){
         return -1;
     }
    
-	// start and end not meet 
+	// not yet pal 
     while(start !== end){
 		// start end not same	
         if(str[start] !== str[end]){
